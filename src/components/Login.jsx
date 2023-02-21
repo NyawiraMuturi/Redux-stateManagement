@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <div>
         <button onClick={() => {
-          dispatch(login({firstName: 'Albina', lastName:'Muturi', age: 20, email: 'Nyawira'}))
+          dispatch(login({firstName: 'John', lastName:'Doe', age: 20, email: 'Johndoe@doe.com'}))
         }}>Login</button>
 
         <button onClick={() => {
